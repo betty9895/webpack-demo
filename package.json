@@ -4,9 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "watch":"webpack --mode development --watch",
-    "start":"webpack --mode development",
-    "depoly":"webpaack --mode production"
+    "watch": "webpack --mode development --watch",
+    "start": "webpack --mode development",
+    "depoly": "webpaack --mode production"
   },
   "author": "ouyuru",
   "license": "ISC",

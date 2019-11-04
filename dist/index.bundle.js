@@ -90,10 +90,35 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var arr = [\"mike\", \"andy\", \"john\", \"12358\"];\narr.map(function (obj) {\n  return console.log(obj);\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _login_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./login.js */ \"./src/login.js\");\n\n\n\nwindow.onload = function () {\n  Object(_menu_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n  Object(_login_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}; // const arr=[\"mike\",\"andy\",\"john\"];\n// arr.map(obj=>console.log(obj));\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/login.js":
+/*!**********************!*\
+  !*** ./src/login.js ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Login; });\nfunction Login() {\n  console.log(\"Login\");\n}\n\n//# sourceURL=webpack:///./src/login.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Menu; });\nfunction Menu() {\n  console.log(\"menu\");\n}\n\n//# sourceURL=webpack:///./src/menu.js?");
 
 /***/ })
 
